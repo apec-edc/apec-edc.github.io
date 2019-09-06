@@ -4,10 +4,25 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 
+{% assign split_url = page.url | split: "/" %}
+{% if split_url contains "zh" %}
+  {% assign translating_to = "en" %}
+  {% assign nav_links = site.data.nav_main['zh'] %}
+{% else %}
+  {% assign translating_to = "zh" %}
+  {% assign nav_links = site.data.nav_main['en'] %}
+{% endif %}
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ page.title }} | APEC Education Development Center (Chinese Taipei)</title>
+  <title>{{ page.title }} |
+    {% if split_url contains "zh" %}
+      {{ site.data.info.chinese_name }}
+    {% else %}
+      {{ site.data.info.english_name }}
+    {% endif %}
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
