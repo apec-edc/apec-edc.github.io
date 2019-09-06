@@ -1,18 +1,22 @@
 zh:
-  - title: APEC 介紹
+  - title: 關於我們
     link: /zh/about.html
+  - title: 2019 智利年會
+    link: /zh/chile2019.html
   - title: 特色領域計畫
     link: /zh/projects.html
   - title: 人才培育
-    link: /zh/cultivation.html
-  - title: 教育部 APEC 獎學金
+    link: /zh/training.html
+  - title: APEC 獎學金
     link: /zh/scholarship.html
 en:
-  - title: About APEC
+  - title: About Us
     link: /en/about.html
+  - title: Chile 2019
+    link: /en/chile2019.html
   - title: Projects
     link: /en/projects.html
-  - title: Cultivation
-    link: /en/cultivation.html
+  - title: Training
+    link: /en/training.html
   - title: Scholarship
     link: /en/scholarship.html
