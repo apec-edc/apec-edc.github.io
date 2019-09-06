@@ -3,7 +3,7 @@
 
     <div class="text-center lg:flex-initial lg:text-left">
       <div class="inline-block">
-        <a href="/">{% include masthead_logo.html %}</a>
+        <a href="{{ home_link }}">{% include masthead_logo.html %}</a>
         <div class="mt-1 text-xs sm:text-sm">
           {% if split_url contains "zh" %}
             {% include project_name/zh.html %}

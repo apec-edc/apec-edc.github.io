@@ -4,14 +4,7 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 
-{% assign split_url = page.url | split: "/" %}
-{% if split_url contains "zh" %}
-  {% assign translating_to = "en" %}
-  {% assign nav_links = site.data.nav_main['zh'] %}
-{% else %}
-  {% assign translating_to = "zh" %}
-  {% assign nav_links = site.data.nav_main['en'] %}
-{% endif %}
+{% include settings.html %}
 
 <head>
   <meta charset="utf-8">
