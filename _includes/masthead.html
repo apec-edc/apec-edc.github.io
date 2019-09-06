@@ -1,6 +1,6 @@
 {% assign split_url = page.url | split: "/" %}
 {% if split_url contains "zh" %}
-  {% assign nav_links = site.data.nav_zh %}
+  {% assign nav_links = site.data.nav_main['zh'] %}
 {% endif %}
 
 <div class="container mx-auto">
