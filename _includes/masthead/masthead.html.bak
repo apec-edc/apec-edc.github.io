@@ -1,0 +1,61 @@
+<div class="container mx-auto">
+  <div class="pt-8 pr-4 pb-8 pl-4 bg-gray-800"> <!-- General masthead spacing adjustment -->
+
+    <div class="mb-4">
+      <div class="w-3/4 mx-auto">{% include masthead/masthead_logo.html %}</div>
+    </div>
+
+    <div>
+      <a class="block rounded border border-teal-700 text-center p-2 mb-2" href="#">MENU</a>
+    </div>
+
+    <ul class="text-gray-500">
+      <li class="py-2 border-t-2 border-gray-600">About</li>
+      <ul>
+        <li class="border-t border-b border-dotted border-gray-600">
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">APEC EDC</a>
+        </li>
+        <li class="border-b border-dotted border-gray-600">
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">APEC</a>
+        </li>
+        <li>
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">HRDWG</a>
+        </li>
+      </ul>
+
+      <li class="py-2 border-t-2 border-gray-600">Our Projects</li>
+      <ul>
+        <li class="border-t border-b border-dotted border-gray-600">
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">Vocational Education</a>
+        </li>
+        <li class="border-b border-dotted border-gray-600">
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">Entrepreneurship</a>
+        </li>
+        <li class="border-b border-dotted border-gray-600">
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">STEM</a>
+        </li>
+        <li>
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">Physical Education</a>
+        </li>
+      </ul>
+
+      <li class="py-2 border-t-2 border-gray-600">Engaging Students</li>
+      <ul>
+        <li class="border-t border-b border-dotted border-gray-600">
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">Workshop</a>
+        </li>
+        <li>
+          <a class="pl-4 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">AEEP</a>
+        </li>
+      </ul>
+
+      <li class="border-t-2 border-gray-600">
+        <a class="py-2 block hover:bg-teal-700 hover:text-gray-200" href="">APEC Funds</a>
+      </li>
+      <li class="border-t-2 border-b-2 border-gray-600">
+        <a class="py-2 block hover:bg-teal-700 hover:text-gray-200" href="">Chile 2019</a>
+      </li>
+    </ul>
+
+  </div>
+</div>
