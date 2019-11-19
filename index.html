@@ -1,6 +1,23 @@
 ---
-layout: default
+layout: index
 title: Home
 ---
 
-{% include english_index.html %}
+<div class="p-4 mx-auto rounded md:my-64 md:w-4/5 lg:my-64 lg:w-4/5 xl:my-64 xl:w-3/5"
+     style="background-color: rgba(99,99,99,0.7);">
+  <div class="mt-4 mx-auto tn:w-1/2 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2">
+    {% include masthead/masthead_logo.html %}
+  </div>
+  <div class="mt-2 text-gray-400 text-xs text-center">
+    APEC Education Development Center (Chinese Taipei)
+  </div>
+  <div class="mt-4 text-teal-400 text-2xl text-center sm:text-3xl italic">
+    Bridging Taiwanese students to the world
+  </div>
+  <div class="mt-8 mb-4 text-center">
+    <a class="rounded border border-teal-700 text-center p-4 bg-teal-400 text-white hover:bg-teal-600" href="/zh">中文</a>
+    <a class="rounded border border-teal-700 text-center p-4 bg-teal-400 text-white hover:bg-teal-600" href="/en">English</a>
+  </div>
+</div>
+
+{% include index/taipei101_background.html %}

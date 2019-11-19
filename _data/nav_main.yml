@@ -1,14 +1,14 @@
 zh:
   - title: 關於我們
-    link: /zh/about.html
-  - title: 2019 智利年會
-    link: /zh/chile2019.html
+    link: /about/
   - title: 特色領域計畫
-    link: /zh/projects.html
+    link: /projects
   - title: 人才培育
-    link: /zh/training.html
-  - title: APEC 獎學金
-    link: /zh/scholarship.html
+    link: /engaging/
+  - title: 申請 APEC 經費
+    link: /fund/
+  - title: APEC 年會參與
+    link: /meeting/
 en:
   - title: About
     link: /about/
