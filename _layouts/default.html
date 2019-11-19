@@ -9,13 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ page.title }} |
-    {% if split_url contains "zh" %}
-      {{ site.data.info.chinese_name }}
-    {% else %}
-      {{ site.data.info.english_name }}
-    {% endif %}
-  </title>
+  <title>{{ page.title }} | {{ site.data.info.site_name[current_lg] }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
