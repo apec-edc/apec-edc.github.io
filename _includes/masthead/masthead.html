@@ -28,9 +28,12 @@
     <!-- Menu that shows after md breakpoint -->
     <div class="pt-8 pr-4 pb-4 pl-4 flex
                 hidden md:block lg:block xl:block">
-      <div class="inline-block"
-           style="width: 30%">
-        <div class="w-3/4 lg:w-2/5 xl:w-2/5">
+      <div class="text-center
+                  lg:inline-block lg:w-1/4 lg:text-left
+                  xl:inline-block xl:w-1/4 xl:text-left">
+        <div class="w-2/6 mx-auto
+                    lg:w-3/5 lg:ml-0
+                    xl:w-3/5 xl:ml-0">
           <a href="{{ home_link }}">{% include masthead/masthead_logo.html %}</a>
         </div>
         <div class="text-sm mt-2 text-gray-600">
@@ -38,8 +41,9 @@
         </div>
       </div>
 
-      <ul class="inline-block text-gray-500 text-right lg:text-lg xl:text-lg align-top pt-6 lg:pt-4 xl:pt-2"
-          style="width: 69%">
+      <ul class="text-gray-500 align-top pt-6 text-center
+                 lg:inline-block lg:pt-4 lg:text-lg lg:text-right lg:w-2/3
+                 xl:inline-block xl:pt-2 xl:text-lg xl:text-right xl:w-2/3">
         {% for nav in nav_links %}
           <li class="inline-block">
             <a class="p-2 hover:bg-teal-700 hover:text-gray-200 rounded {% if page.url contains nav.link %} bg-gray-700 text-teal-400 {% endif %}" href="{{ home_link }}{{ nav.link }}" %>{{ nav.title }}</a>
