@@ -14,26 +14,11 @@
       </div>
 
       <ul class="masthead-menu text-gray-500 hidden">
-
-        <li class="border-t border-gray-600">
-          <a class="pl-2 py-2 block hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/about/" %>About</a>
-        </li>
-
-        <li class="border-t border-gray-600">
-          <a class="pl-2 py-2 block hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/projects/">Projects</a>
-        </li>
-
-        <li class="border-t border-gray-600">
-          <a class="pl-2 py-2 block hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/engaging/">Engaging Students</a>
-        </li>
-
-        <!-- <li class="border-t border-gray-600">
-          <a class="pl-2 py-2 block hover:bg-teal-700 hover:text-gray-200" href="">APEC Funds</a>
-        </li> -->
-
-        <li class="border-t border-b border-gray-600">
-          <a class="pl-2 py-2 block hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/meeting/">Chile 2019</a>
-        </li>
+        {% for nav in nav_links %}
+          <li class="border-t border-gray-600">
+            <a class="pl-2 py-2 block hover:bg-teal-700 hover:text-gray-200 {% if page.url contains nav.link %} bg-gray-700 {% endif %}" href="{{ home_link }}{{ nav.link }}" %>{{ nav.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
 
@@ -47,25 +32,11 @@
 
       <ul class="inline-block text-gray-500 text-right lg:text-lg xl:text-lg"
           style="width: 79%">
-        <li class="inline-block">
-          <a class="p-2 hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/about/">About</a>
-        </li>
-
-        <li class="inline-block">
-          <a class="p-2 hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/projects/">Projects</a>
-        </li>
-
-        <li class="inline-block">
-          <a class="p-2 hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/engaging/">Engaging Students</a>
-        </li>
-
-        <!-- <li class="inline-block">
-          <a class="p-2 hover:bg-teal-700 hover:text-gray-200" href="">APEC Funds</a>
-        </li> -->
-
-        <li class="inline-block">
-          <a class="p-2 hover:bg-teal-700 hover:text-gray-200" href="{{ home_link }}/meeting/">Chile 2019</a>
-        </li>
+        {% for nav in nav_links %}
+          <li class="inline-block">
+            <a class="p-2 hover:bg-teal-700 hover:text-gray-200 rounded {% if page.url contains nav.link %} bg-gray-700 {% endif %}" href="{{ home_link }}{{ nav.link }}" %>{{ nav.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
 

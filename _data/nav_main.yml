@@ -10,13 +10,11 @@ zh:
   - title: APEC 獎學金
     link: /zh/scholarship.html
 en:
-  - title: About Us
-    link: /en/about.html
-  - title: Chile 2019
-    link: /en/chile2019.html
+  - title: About
+    link: /about/
   - title: Projects
-    link: /en/projects.html
-  - title: Training
-    link: /en/training.html
-  - title: Scholarship
-    link: /en/scholarship.html
+    link: /projects
+  - title: Engaging Students
+    link: /engaging/
+  - title: Chile 2019
+    link: /meeting/
