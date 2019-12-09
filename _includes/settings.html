@@ -2,11 +2,13 @@
 {% if split_url contains "zh" %}
   {% assign current_lg = "zh" %}
   {% assign translating_to = "en" %}
+  {% assign translating_text = "English" %}
   {% assign nav_links = site.data.nav_main['zh'] %}
   {% assign home_link = '/zh' %}
 {% else %}
   {% assign current_lg = "en" %}
   {% assign translating_to = "zh" %}
+  {% assign translating_text = "中文" %}
   {% assign nav_links = site.data.nav_main['en'] %}
   {% assign home_link = '/en' %}
 {% endif %}
