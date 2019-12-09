@@ -4,19 +4,23 @@ zh:
   - title: 特色領域計畫
     link: /projects
   - title: 人才培育
-    link: /engaging/
+    link: /engagements/
+  - title: 獎學金
+    link: /scholarship/
   - title: 申請 APEC 經費
-    link: /fund/
+    link: /funding/
   - title: APEC 年會參與
-    link: /meeting/
+    link: /participation/
 en:
   - title: About
     link: /about/
   - title: Projects
     link: /projects
-  - title: Engaging Students
-    link: /engaging/
-  - title: APEC Fund
-    link: /fund/
-  - title: Participate in APEC
-    link: /meeting/
+  - title: Engagements
+    link: /engagements/
+  - title: Scholarship
+    link: /scholarship/
+  - title: APEC Funding
+    link: /funding/
+  - title: APEC Participation
+    link: /participation/
